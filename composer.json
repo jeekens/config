@@ -12,8 +12,7 @@
   "license": "Apache-2.0",
   "require": {
     "php": ">7.2",
-    "ext-bcmath": "*",
-    "jeekens/basics": "~1.2.0"
+    "ext-bcmath": "*"
   },
   "autoload": {
     "psr-4": {
