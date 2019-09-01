@@ -1,7 +1,7 @@
 {
   "name": "jeekens/config",
   "type": "library",
-  "version": "v1.0.0",
+  "version": "v0.0.1",
   "keywords": [
     "php",
     "swoole",
@@ -12,7 +12,8 @@
   "license": "Apache-2.0",
   "require": {
     "php": ">7.2",
-    "ext-bcmath": "*"
+    "ext-bcmath": "*",
+    "jeekens/std": "~0.0.1"
   },
   "autoload": {
     "psr-4": {

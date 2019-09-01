@@ -3,8 +3,10 @@
 namespace Jeekens\Config;
 
 
-use Jeekens\Basics\Spl\Arrayable;
+use ArrayAccess;
+use Countable;
 use Jeekens\Config\Exception\WriteInhibitException;
+use Jeekens\Std\Struct\Arrayable;
 use function strval;
 
 /**
@@ -12,7 +14,7 @@ use function strval;
  *
  * @package Jeekens\Config
  */
-class Config implements \ArrayAccess, \Countable, ConfigInterface
+class Config implements ArrayAccess, Countable, ConfigInterface
 {
 
     /**
